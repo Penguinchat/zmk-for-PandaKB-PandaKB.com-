@@ -5,7 +5,7 @@
 *
 */
 
-#include "Corne.dtsi"
+#include "Corne_dongle.dtsi"
 
 /{
     chosen {
