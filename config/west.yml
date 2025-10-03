@@ -46,6 +46,6 @@ manifest:
       revision: main
     - name: zmk-dongle-screen
       remote: penguinchat
-      revision: penguinchat-patch-1
+      revision: Penguinchat-patch-1
   self:
     path: config
