@@ -19,11 +19,13 @@ manifest:
       url-base: https://github.com/s6t
     - name: infely
       url-base: https://github.com/infely
+    - name: penguinchat
+      url-base: https://github.com/penguinchat
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-
+  #additional module
     - name: hammerbeam-slideshow
       remote: gpeye
       revision: main
@@ -42,5 +44,8 @@ manifest:
     - name: nice-view-battery
       remote: infely
       revision: main
+    - name: prospector-zmk-module                 
+      remote: penguinchat                       
+      revision: support_nicenano
   self:
     path: config
