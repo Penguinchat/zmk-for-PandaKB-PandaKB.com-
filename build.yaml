@@ -17,9 +17,9 @@ include:
 #Corne with dongle 
   # dongle with LCD display
   - board: nice_nano_v2
-    shield: Corne_dongle_central prospector_adapter
+    shield: Corne_dongle_central dongle_screen
     snippet: studio-rpc-usb-uart
-    artifact-name: corne_central_dongle
+    artifact-name: Corne_central_dongle
     
   # peripheral with oled display(with nice_oled module)
   - board: nice_nano_v2
