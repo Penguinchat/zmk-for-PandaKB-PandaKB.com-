@@ -9,7 +9,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 
-if SHIELD_CORNE_DONGLE_CENTRAL || SHIELD_CORNE_DONGLE_LEFT || SHIELD_CORNE_DONGLE_RIGHT
+if SHIELD_CORNE_DONGLE_LEFT || SHIELD_CORNE_DONGLE_RIGHT
 
 config ZMK_SPLIT
     default y
@@ -45,14 +45,8 @@ choice LV_COLOR_DEPTH
 endchoice
 
 endif
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
 
 endif
+
+
+
