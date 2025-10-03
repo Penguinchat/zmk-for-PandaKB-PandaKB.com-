@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - ".github/workflows/keymap_draser.yml"
       - "config/**"
 
 jobs:
