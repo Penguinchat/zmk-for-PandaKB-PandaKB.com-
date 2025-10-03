@@ -44,8 +44,8 @@ manifest:
     - name: nice-view-battery
       remote: infely
       revision: main
-    - name: prospector-zmk-module                 
-      remote: penguinchat                       
-      revision: support_nicenano
+    - name: zmk-dongle-screen
+      remote: penguinchat
+      revision: penguinchat-patch-1
   self:
     path: config
